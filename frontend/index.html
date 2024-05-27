@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Photography Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <img
+          src="img/Messenger_creation_d951dbfc-cea6-486d-be9c-00f083209205.png"
+          alt=""
+        />
+        <h3 class="name">JELLOU LUMOCSO</h3>
+        <p class="post">PHOTOGRAPHER</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#Home" class="nav-link active-link">Home</a></li>
+          <li><a href="#About" class="nav-link">About</a></li>
+          <li><a href="#Hobbies" class="nav-link">Hobbies</a></li>
+          <li><a href="#review" class="nav-link">Feedback</a></li>
+          <li><a href="#Contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="Home" id="Home">
+      <h3>Hi There!</h3>
+      <h1>I'm <span> Jellou Lumocso </span></h1>
+      <p class="post">Photographer</p>
+      <p>
+        Welcome to my captiviting world of Photography. Join me on this visual
+        journey where every click is an invitation to explore the rich tapestry
+        of our world. lets embark together and discover the artistry of
+        Photography, where everything image is a window into the soul.
+      </p>
+    </section>
+
+    <section class="About" id="About">
+      <h1 class="heading"><span> About </span> Me</h1>
+      <div class="row">
+        <div class="info">
+          <h3><span> name: </span> Jellou Lumocso</h3>
+          <h3>
+            <span> Key Skills: </span> Technical, creativity, patience and
+            concentration, attention to detail, good communication, flexibility
+            and emphaty.
+          </h3>
+          <div class="Education">
+            <h1><span>Education</span></h1>
+          </div>
+        </div>
+
+        <div class="About-bottom">
+          <div class="About-item">
+            <div class="icon"></div>
+            <h2>Dilawa Elementary School</h2>
+            <p>
+              "Looking back, my elementary school days were a mix of curiosity,
+              play, learning, and growth. They laid the foundation for my later
+              education and instilled in me a lifelong love of learning. The
+              experiences and lessons from those days remain cherished memories,
+              reminding me of the wonder and potential of childhood."
+            </p>
+          </div>
+          <div class="About-item">
+            <div class="icon"></div>
+            <h2>Dilawa National High School</h2>
+            <p>
+              "High school was a transformative period in my life, a time of
+              growth, exploration, and self-discovery. Days were a mix of hard
+              work, fun, and personal growth. They were a time of figuring out
+              who I was and who I wanted to become. The experiences, both good
+              and bad, helped shape my identity and prepared me for the
+              challenges and opportunities of adulthood. High school taught me
+              resilience, adaptability, and the importance of staying true to
+              myself, lessons that continue to guide me in life. "
+            </p>
+          </div>
+          <div class="About-item">
+            <div class="icon"></div>
+            <h2>Jose Rizal Memorial State University/Katipunan Campus</h2>
+            <p>
+              " As a college student pursuing a Bachelor of Science in
+              Information Systems, my experience was a blend of rigorous
+              academics, practical applications, and personal growth. It was a
+              journey that prepared me for a career in the ever-evolving field
+              of technology and business integration."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Hobbies" id="Hobbies">
+      <div class="Hobbies-header" data-aos="fade-down">
+        <h1 class="heading"><span> Photog</span>raphy</h1>
+      </div>
+      <div class="Hobbies-content">
+        <div class="box_works">
+          <div
+            class="image-container"
+            aria-details="Landscape"
+            data-aos="fade-up"
+          >
+            <a href="Landscape.html">
+              <img
+                src="img/png-clipart-landscape-green-logo-01.png"
+                alt="Landscape"
+              />
+            </a>
+          </div>
+          <button
+            class="button-86"
+            role="button"
+            onclick="redirectToLandscape()"
+          >
+            Landscape
+          </button>
+        </div>
+
+        <div class="box_works">
+          <div
+            class="image-container"
+            aria-details="Portraits"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <a href="Portraits.html">
+              <img
+                src="img/a77286f7-70d5-421b-badd-b7d0799f78ab.jpg"
+                alt="Portraits"
+              />
+            </a>
+          </div>
+          <button
+            class="button-86"
+            role="button"
+            onclick="redirectToPortraits()"
+          >
+            Portraits
+          </button>
+        </div>
+
+        <div class="box_works">
+          <div
+            class="image-container"
+            aria-details="Events"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <a href="Events.html">
+              <img src="img/th (10).jpg" alt="Events" />
+            </a>
+          </div>
+          <button class="button-86" role="button" onclick="redirectToEvents()">
+            Events
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section class="feedbacks" id="review">
+      <div class="feedbacks_header">
+        <h1 class="testimonial-heading">
+          Feed<span class="main-color">backs</span>
+        </h1>
+      </div>
+      <div class="rate-me">
+        <h4>Rate Me!</h4>
+      </div>
+      <div id="testimonials">
+        <!-- Reviews Container -->
+
+        <div class="reviews_container">
+          <div class="post">
+            <div class="text">Thanks for rating me!</div>
+            <!-- <div class="edit">EDIT</div> -->
+          </div>
+          <div class="reviews">
+            <input type="radio" name="rate" id="rate-5" />
+            <label for="rate-5" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-4" />
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3" />
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2" />
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1" />
+            <label for="rate-1" class="fas fa-star"></label>
+            <form id="commentForm" action="#">
+              <header></header>
+              <div class="name">
+                <textarea cols="10" placeholder="Enter Your Name.."></textarea>
+              </div>
+              <div class="textarea">
+                <textarea
+                  cols="30"
+                  placeholder="Describe your experience.."
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Post</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- End Of Reviews Container -->
+        <!-- Testimonials heading -->
+        <h3 style="padding: 5rem">Comments</h3>
+        <div class="box_comments">
+          <!-- Testimonials box container -->
+          <div class="testimonial-box-container">
+            <!-- Testimonial boxes will be dynamically generated here -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END REVIEWS SECTION -->
+
+    <section class="Contact" id="Contact">
+      <h1 class="heading"><span> Contact </span> Me</h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Contact info</h3>
+          <div class="info">
+            <h3><i class="fab fa-facebook"></i> Jellou Lumocso</h3>
+            <h3><i class="fas fa-phone"></i> 09261839473</h3>
+            <h3><i class="fas fa-envelope"></i> Jelailumocso@gmail.com</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Katipunan Zamboanga Del
+              Norte
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
